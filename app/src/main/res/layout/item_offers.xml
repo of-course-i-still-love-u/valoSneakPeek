@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="18dp"
+    tools:background="@color/mainAppColor1">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/item_offer_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:cardBackgroundColor="@color/itemCardBackground"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/item_offer_text_title"
+                style="@style/GText.itemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+                android:text="Title" />
+
+            <TextView
+                android:id="@+id/item_offer_text_subTitle"
+                style="@style/GText.itemSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="subTitle" />
+
+            <ImageView
+                android:id="@+id/item_offer_image_gun"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginVertical="40dp"
+                android:rotation="40"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_launcher"
+                android:layout_weight="1"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/item_offer_image_vpCoin"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginBottom="18dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vp_coin_24" />
+
+                <TextView
+                    android:id="@+id/item_offer_text_vpCoin"
+                    style="@style/GText.itemPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="9,999" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

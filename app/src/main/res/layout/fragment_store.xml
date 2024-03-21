@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/FragmentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.store.StoreFragment">
+
+
+    <ImageView
+        android:id="@+id/store_image_logo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/store_text_header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/valorant_logo"
+
+        />
+
+    <TextView
+        android:id="@+id/store_text_header"
+        style="@style/HText.menuHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="@string/store_menu"
+        app:layout_constraintBottom_toTopOf="@+id/store_tabs_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/store_image_logo"
+
+        />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/store_tabs_layout"
+        style="@style/GText.tabItem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/store_text_header"
+        app:tabGravity="start"
+        app:tabIndicatorColor="@color/mainAppColor1"
+        app:tabMinWidth="0dp"
+        app:tabMode="scrollable"
+        app:tabRippleColor="@null"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/tabInActive">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/store_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/mainAppColor2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/store_tabs_layout" />
+
+
+    <!--    <ScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/store_tabs_layout">-->
+
+    <!--        <FrameLayout-->
+    <!--            android:id="@+id/store_frame_container"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="0dp" />-->
+
+    <!--    </ScrollView>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

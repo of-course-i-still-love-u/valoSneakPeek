@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="iconActive">#e54654</color>
+    <color name="iconInActive">#7a7b7e</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="background">#1b1d21</color>
+    <color name="mainAppColor1">#e54654</color>
+    <color name="mainAppColor2">#1b1d21</color>
+    <color name="tabInActive">#7a7b7e</color>
+    <color name="itemSubTitle">#7a7b7e</color>
+    <color name="itemCardBackground">#222429</color>
+    <color name="timeCount">#dfe2af</color>
+
+
+</resources>

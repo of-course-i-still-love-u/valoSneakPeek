@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="18dp"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/itemCardBackground"
+        app:cardCornerRadius="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="300dp"
+            android:layout_height="200dp">
+
+
+            <TextView
+                android:id="@+id/item_featured_text_title"
+                style="@style/GText.itemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+
+                />
+
+            <TextView
+                android:id="@+id/item_featured_text_subTitle"
+                style="@style/GText.itemSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="subTitle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item_featured_text_title"
+                android:layout_marginStart="18dp"
+                />
+
+            <ImageView
+                android:id="@+id/item_featured_image_vpCoin"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vp_coin_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/item_featured_text_vpCoin"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="18dp"
+                />
+
+            <TextView
+                android:id="@+id/item_featured_text_vpCoin"
+                style="@style/GText.itemPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="9,999"
+                app:layout_constraintBottom_toBottomOf="@+id/item_featured_image_vpCoin"
+                app:layout_constraintStart_toEndOf="@+id/item_featured_image_vpCoin"
+                app:layout_constraintTop_toTopOf="@+id/item_featured_image_vpCoin" />
+
+            <ImageView
+                android:id="@+id/item_featured_image_gun"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_launcher"
+                android:rotation="40"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toEndOf="@+id/item_featured_text_subTitle"
+                app:layout_constraintTop_toTopOf="@+id/item_featured_text_title" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

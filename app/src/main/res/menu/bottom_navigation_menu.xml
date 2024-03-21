@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_home"
+        android:enabled="true"
+        android:icon="@drawable/valorant_logo"
+        android:title="@string/home_menu" />
+    <item
+        android:id="@+id/menu_item_store"
+        android:enabled="true"
+        android:icon="@drawable/local_mall_24"
+        android:title="@string/store_menu"
+
+        />
+    <item
+        android:id="@+id/menu_item_trophy"
+        android:enabled="true"
+        android:icon="@drawable/trophy_24"
+        android:title="@string/trophy_menu" />
+    <item
+        android:id="@+id/menu_item_user"
+        android:enabled="true"
+        android:icon="@drawable/user_cicrle_24"
+        android:title="@string/user_menu"
+
+        />
+</menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FragmentContainer">
+        <item name="android:background">@color/mainAppColor2</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="HText">
+        <item name="android:fontFamily">@font/gugi</item>
+    </style>
+    <style name="GText">
+        <item name="android:fontFamily">@font/gabarito</item>
+    </style>
+    <style name="HText.menuHeader">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="HText.subMenuHeader">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="GText.subMenuHeader">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/itemSubTitle</item>
+    </style>
+    <style name="GText.itemTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="GText.itemSubTitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/itemSubTitle</item>
+    </style>
+    <style name="GText.itemPrice">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="GText.tabItem">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="GText.banner">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="GText.banner_collection_name">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="GText.timeCount">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/timeCount</item>
+    </style>
+    <style name="GText.nextOffer">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>

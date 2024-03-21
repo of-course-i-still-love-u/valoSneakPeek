@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainAppColor2"
+    android:padding="16dp">
+
+
+    <ImageButton
+        android:id="@+id/weapon_preview_image_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:background="@color/transparent"
+        android:paddingRight="20dp"
+        android:src="@drawable/back_arrow_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/weapon_preview_text_weapon_name"
+        style="@style/HText.menuHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="weapon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weapon_preview_image_back_button" />
+
+    <TextView
+        android:id="@+id/weapon_preview_text_skin_name"
+        style="@style/GText.subMenuHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weapon_preview_text_weapon_name" />
+
+    <ImageView
+        android:id="@+id/weapon_preview_display_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weapon_preview_text_skin_name" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

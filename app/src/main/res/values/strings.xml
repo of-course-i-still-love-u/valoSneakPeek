@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ValoSneakPeek</string>
+    <string name="home_menu">home</string>
+    <string name="store_menu">store</string>
+    <string name="trophy_menu">trophy</string>
+    <string name="user_menu">user</string>
+    <string name="store_featured">Featured collection</string>
+    <string name="store_offers">Offers</string>
+    <string name="store_night_market">Night market</string>
+    <string name="store_favorite">Favorite</string>
+    <string name="featured_collection">collection</string>
+    <string name="featured_banner">Featured</string>
+    <string name="offers_next_offer">Next offer:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
